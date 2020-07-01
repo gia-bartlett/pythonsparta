@@ -1,14 +1,21 @@
 #Python Notes:
-efficient
-scalable
-open-source (well-resourced)
+* efficient
+* scalable
+* open-source (well-resourced)
 
-all python is in lower case
-no spaces - separate text with underscore
-indexing starts from 0 in python (1 in SQL)
+###Format:
+* all python is in lower case
+* no spaces - separate text with underscore
+* indexing starts from 0 in python (1 in SQL)
+* (#) to comment in Python (single line)
 
-(#) to comment in Python
-select all CTRL / to comment multiple lines out
+###Tips for PyCharm
+* select all CTRL / to comment multiple lines out
+* CTRL SHIFT up down - move whole line up or down
+* CTRL SHIFT left right - select whole words
+* CTRL up down - move page up and down
+* CTRL left right - skip whole words with cursor
+* SHIFT up down - select whole lines
 
 x and y are not good naming conventions. Nor can you use reserved characters (string, int etc).
 Be more descriptive with names of variables.
@@ -21,29 +28,29 @@ No real difference but double is better because of apostrophes in text:
 '\"Hey Bob!\"'
 Use backslash \ to cancel out any quotes within strings
 
-###VARIABLES:
+####VARIABLES:
 x = 10 (integer)
 y = 3.5 (float)
 name = "James" (string)
 
-###PRINT:
+####PRINT:
 The print() function prints the specified message to the screen, or other standard output device.
 The message can be a string, or any other object, the object will be converted into a string before written to the screen.
 print(x) (will print 10)
 
-###INPUT:
+####INPUT:
 The input() method reads a line from input, converts into a string and returns it.
 The syntax of input() method is: input("prompt ") OR input([prompt])
 Leave a space after prompt otherwise the answer will be squashed against the prompt.
 
-###INDEXING:
+####INDEXING:
 H E L L O   W O R L D  !
 0 1 2 3 4 5 6 7 8 9 10 11
 print("Hello World!"[1:5]); #ello
 Starts at 0 and prints up to one before the last number
 
 
-###METHODS:
+####METHODS:
 cast()
 The cast() function convert a variable value from one type to another.
 This is, in Python, done with functions such as int() or float() or str()
@@ -68,7 +75,8 @@ Use the + character to add a variable to another variable
 To add a space between them, add a " "
 remember - + with numbers means add!
 
-###LISTS:
+####LISTS:
+ordered
 Java - array
 Python - list
 To store data in a variable. Better than a string because you can add and take away.
@@ -91,3 +99,31 @@ more dynamic than lists and tuples
 age:14
 name:"Hector"
 breed:dog
+
+sets:
+unordered (unlike list which are ordered)
+uses {}
+
+
+##CONTROL FLOW
+and/or:
+same as SQL (AND - both must be true. OR - either condition needs to be true)
+
+if:
+if this condition is met - do this
+
+elif:
+used as if, after first if
+
+else:
+otherwise do this
+
+####for loops:
+* iterate through a list, string, dictionary or tuple
+for <variable> in <whatever you want to iterate through>:
+    print(<variable>)
+    
+####while loops:
+* runs until a condition is true
+
+
