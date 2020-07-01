@@ -78,11 +78,16 @@ Easier to add, remove etc.
 [Syntax]
 list[] =:
 lists are mutable - can be changed
+14, "Hector", "dog"
+
 tuple() =:
 lists are immutable - they can't be edited once they've been created
 * if an error is made with a tuple it must be converted to a list and corrected
-dictionary{} - key:value:
+14, "Hector", "dog"
+
+dictionary = {"":""} - key:value:
 stores the data with key:value pairs
+more dynamic than lists and tuples
 age:14
 name:"Hector"
 breed:dog

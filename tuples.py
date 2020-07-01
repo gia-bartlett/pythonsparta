@@ -13,3 +13,4 @@ print(type(dob_list))
 dob_list.insert(0, "Georgina")
 # display list
 print(dob_list)
+
