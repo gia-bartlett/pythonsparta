@@ -20,19 +20,16 @@ list_data = [1, 2, 3, 4]
 #         print("please enter a number above 0")
 #     print(data) # will print 1 2 3 YAS! 4
 #
-# # create a string and loop through the string
-# city = "London"
-# in_line = " "
-# for letter in city:
-#     in_line += " " + index
-#     if city[-1] == index:
-#         print(in_line)
-# # print the string on one line
+# create a string and loop through the string
+city = "London"
+for letter in city:
+    print(letter, end = '')
+# print the string on one line
 
-# WHILE loop:
-x = 1
-
-while x < 5:
-    print("it's working -> {x}")
-
-    x += 1 # without this it'll just keep iterating through forever!!!
+# # WHILE loop:
+# x = 1
+#
+# while x < 5:
+#     print("it's working -> {x}")
+#
+#     x += 1 # without this it'll just keep iterating through forever!!!

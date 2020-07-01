@@ -30,21 +30,25 @@ student_record = {
 # print(student_record["name"]) # Georgina (fetch value of a stream)
 # print(student_record["completed_lessons"][2]) # variables
 
-# introducing loops:
-for record in student_record:
-    print(record[0]) # n s c c
+# # introducing loops:
+# for record in student_record:
+#     print(record[0]) # n s c c
+#
+# for record in student_record.values():
+#     print(record) # Georgina DevOps 5 ['strings', 'tuples', 'variables']
 
-for record in student_record.values():
-    print(record) # Georgina DevOps 5 ['strings', 'tuples', 'variables']
-
-# create a dictionary with employee records min 5 key:value pairs
+# # create a dictionary with employee records min 5 key:value pairs
 employee_record = {
     "first_name": "Georgina",
     "last_name": "Bartlett",
+    "employee": "Sparta",
     "title": "trainee",
-    "title": "trainee",
-    "title": "trainee"
+    "city": "Coventry"
 }
+
+#print(employee_record)
 # using for loop iterate through
+for key, value in employee_record.items():
+    print(key, "=", value)
 
 # display the values and keys of the dictionary

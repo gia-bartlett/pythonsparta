@@ -19,9 +19,10 @@
 # write a if..else statement to admit correct ages into the cinema
 # U, PG, 12a, 15, 18
 
-age = 6
 movie = "PG"
 parent_present = True
+age = int(input("How old are you? "))
+
 
 if age >= 18 and movie == 18:
     print("Enjoy your movie!")
@@ -39,3 +40,6 @@ elif age > 0 and movie == "U":
     print("Enjoy your movie!")
 else:
     print("Sorry, you're not old enough!")
+
+
+# break will break the loop
