@@ -67,3 +67,22 @@ String concatenation means add strings together.
 Use the + character to add a variable to another variable
 To add a space between them, add a " "
 remember - + with numbers means add!
+
+###LISTS:
+Java - array
+Python - list
+To store data in a variable. Better than a string because you can add and take away.
+Better for managing data. Lists are ordered.
+Easier to add, remove etc.
+
+[Syntax]
+list[] =:
+lists are mutable - can be changed
+tuple() =:
+lists are immutable - they can't be edited once they've been created
+* if an error is made with a tuple it must be converted to a list and corrected
+dictionary{} - key:value:
+stores the data with key:value pairs
+age:14
+name:"Hector"
+breed:dog
