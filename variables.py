@@ -42,7 +42,7 @@ last_name = input("Please print your last name ")
 age = input("Please print your age ")
 address = input("Please print your address ")
 
-full_name_age_address = first_name + " " + last_name + ", " + age + ", " + address
+full_name = first_name + " " + last_name + ", " + age + ", " + address
 
-print(full_name_age_address)
+print(full_name)
 
