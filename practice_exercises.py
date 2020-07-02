@@ -1,6 +1,6 @@
-## Homework 30/06
-## create a vairable called first_name and last_name
-## create a variable called full_name and display full name
+# Homework 30/06
+# 1. create a vairable called first_name and last_name
+# create a variable called full_name and display full name
 
 first_name = input("Please print your first name ")
 last_name = input("Please print your last name ")
@@ -11,20 +11,20 @@ full_name = first_name + " " + last_name + ", " + age + ", " + address
 
 print(full_name)
 
-# create a string and loop through the string
+# 2. create a string and loop through the string
 # print the string on one line
-## option 1
+# option 1
 city = "London"
 for letter in city:
     print(letter, end = '')
-## option 2
+# option 2
 city = "London"
 one_line = ""
 for letter in city:
     one_line += letter
 print(one_line)
 
-# # create a dictionary with employee records min 5 key:value pairs
+# 3. create a dictionary with employee records min 5 key:value pairs
 employee_record = {
     "first_name": "Georgina",
     "last_name": "Bartlett",
@@ -40,7 +40,7 @@ for key, value in employee_record.items():
 
 # display the values and keys of the dictionary
 
-# write a if..else statement to admit correct ages into the cinema
+# 4. write a if..else statement to admit correct ages into the cinema
 # U, PG, 12a, 15, 18
 
 parent_present = "n" #setting to default value

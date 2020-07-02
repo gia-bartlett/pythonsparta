@@ -33,15 +33,18 @@ x = 10 (integer)
 y = 3.5 (float)
 name = "James" (string)
 
+* placeholder 
+
 ####PRINT:
 The print() function prints the specified message to the screen, or other standard output device.
 The message can be a string, or any other object, the object will be converted into a string before written to the screen.
 print(x) (will print 10)
 
 ####INPUT:
-The input() method reads a line from input, converts into a string and returns it.
-The syntax of input() method is: input("prompt ") OR input([prompt])
-Leave a space after prompt otherwise the answer will be squashed against the prompt.
+* The input() method reads a line from input, converts into a string and returns it.
+* Allows a user to input the variable
+* The syntax of input() method is: input("prompt ") OR input([prompt])
+* Leave a space after prompt otherwise the answer will be squashed against the prompt.
 
 ####INDEXING:
 H E L L O   W O R L D  !
@@ -120,6 +123,7 @@ otherwise do this
 
 ####for loops:
 * iterate through a list, string, dictionary or tuple
+* collects large amount of information quickly
 for <variable> in <whatever you want to iterate through>:
     print(<variable>)
     
