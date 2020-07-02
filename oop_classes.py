@@ -1,5 +1,4 @@
 # create a class method with key word class
-# naming convention is to capitalize first letter
 
 # class Python_Calculator:
 #

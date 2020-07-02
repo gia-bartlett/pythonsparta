@@ -148,3 +148,33 @@ def <'name of function>(parameter1, parameter2,.....):
 * At the beginning of the page you can import libraries of functions
 * from <'libraryname> import * (ALL) or certain ones
 * <'libraryname>.<'libraryfunction>(<'variable>)
+
+##CLASSES:
+* naming convention is to capitalize first letter
+* Parent class is the class being inherited from, also called base class.
+* Child class is the class that inherits from another class, also called derived class
+####4 pillars of OOP
+1. inheritance - Inheritance allows us to define a class that inherits all the methods and properties from another class.
+```bash
+Animal - parent class:
+def __init__(self)
+    super.init() # refers to the parent/base class
+
+Dog -inherits from Animal
+Cat - inherits from Animal
+from more_oop_zoo import Animal this imports all the methods from the parent class
+```
+
+2. polymorphism - allows us to access these overridden methods and attributes that have the same name as the parent class.
+
+3. encapsulation - prevents from accessing accidentally, but not intentionally.
+```bash
+def sleep():
+def __sleep(): # __ hides various aspects of the class from a user
+```
+4. abstraction - the process of hiding the real implementation of an application from the user and emphasizing only on usage of it.
+```bash
+def bark(self)
+    return "woof"
+print(my_dog.bark())
+```

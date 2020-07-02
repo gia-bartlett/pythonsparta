@@ -1,7 +1,7 @@
 from random import random
 import math
 # # OPERANDS:
-# # + | - | * | / | % (addition, subtraction, multplication, division, remainder)
+# # + | - | * | / | % (addition, subtraction, multiplication, division, remainder)
 # # > | < (greater than, less than)
 # # == | != (equal to, not equal to)
 # # >= | <= (greater than or equal to, less than or equal to)
@@ -39,15 +39,3 @@ import math
 #
 # print(conversion_cm(6))
 #
-# convert both
-def conversion():
-    qualification = str(input("Are you converting to inches or cm? in/cm "))
-    measurement = int(input("Please enter your measurement: "))
-    if qualification == "in":
-        return measurement / 2.54
-    elif qualification == "cm":
-        return measurement * 2.54
-    else:
-        print("Please try again")
-
-print(conversion())
