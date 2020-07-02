@@ -131,3 +131,16 @@ for <variable> in <whatever you want to iterate through>:
 * runs until a condition is true
 
 
+##FUNCTIONS:
+
+* Why do we use functions? What are the benefits?
+* Reuse code - DRY (Don't Repeat Yourself)
+* Python has functions built in that we can use (print(), format(), len(), etc.)
+* Functions should only do one job
+* We can also create our own to reuse blocks of code we have written:
+* SYNTAX:
+def <name of function>(parameter1, parameter2,.....):
+    <function instructions>
+* A function must be called
+*
+

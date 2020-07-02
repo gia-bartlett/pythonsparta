@@ -33,7 +33,7 @@ employee_record = {
     "city": "Coventry"
 }
 
-#print(employee_record)
+# print(employee_record)
 # using for loop iterate through
 for key, value in employee_record.items():
     print(key, "=", value)
@@ -43,7 +43,7 @@ for key, value in employee_record.items():
 # 4. write a if..else statement to admit correct ages into the cinema
 # U, PG, 12a, 15, 18
 
-parent_present = "n" #setting to default value
+parent_present = "n" # setting to default value
 
 movie = str(input("What is the rating of the movie? U, PG, 12A, 15 or 18 ")).upper()
 age = int(input("How old are you? "))
