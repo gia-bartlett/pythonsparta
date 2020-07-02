@@ -36,19 +36,3 @@ student_record = {
 #
 # for record in student_record.values():
 #     print(record) # Georgina DevOps 5 ['strings', 'tuples', 'variables']
-
-# # create a dictionary with employee records min 5 key:value pairs
-employee_record = {
-    "first_name": "Georgina",
-    "last_name": "Bartlett",
-    "employee": "Sparta",
-    "title": "trainee",
-    "city": "Coventry"
-}
-
-#print(employee_record)
-# using for loop iterate through
-for key, value in employee_record.items():
-    print(key, "=", value)
-
-# display the values and keys of the dictionary

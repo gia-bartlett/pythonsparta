@@ -33,16 +33,3 @@
 
 #Python runs top to bottom so name will be Bond in this example
 
-#Homework 30/06
-#create a vairable called first_name and last_name
-#create a variable called full_name adn display full name
-
-first_name = input("Please print your first name ")
-last_name = input("Please print your last name ")
-age = input("Please print your age ")
-address = input("Please print your address ")
-
-full_name = first_name + " " + last_name + ", " + age + ", " + address
-
-print(full_name)
-
