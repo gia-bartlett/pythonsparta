@@ -75,4 +75,12 @@ num1 = int(input("Please choose a number. "))
 num2 = int(input("Please choose a second number. "))
 
 print(sub_value(num1, num2))
-print(sub_value(2020, 1989))
+
+# OR
+
+def sub_value2():
+    num1 = int(input("Please choose a number. "))
+    num2 = int(input("Please choose a second number. "))
+    return num1 - num2
+
+print(sub_value2())

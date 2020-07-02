@@ -124,8 +124,8 @@ otherwise do this
 ####for loops:
 * iterate through a list, string, dictionary or tuple
 * collects large amount of information quickly
-for <variable> in <whatever you want to iterate through>:
-    print(<variable>)
+for <'variable> in <'whatever you want to iterate through>:
+    print('variable')
     
 ####while loops:
 * runs until a condition is true
@@ -139,8 +139,12 @@ for <variable> in <whatever you want to iterate through>:
 * Functions should only do one job
 * We can also create our own to reuse blocks of code we have written:
 * SYNTAX:
-def <name of function>(parameter1, parameter2,.....):
-    <function instructions>
+def <'name of function>(parameter1, parameter2,.....):
+    <'function instructions>
 * A function must be called
 *
 
+##IMPORT LIBRARIES:
+* At the beginning of the page you can import libraries of functions
+* from <'libraryname> import * (ALL) or certain ones
+* <'libraryname>.<'libraryfunction>(<'variable>)
