@@ -1,4 +1,4 @@
-from more_oop_zoo import Animal
+from oop.more_oop_zoo import Animal
 
 class Dog(Animal):
 
